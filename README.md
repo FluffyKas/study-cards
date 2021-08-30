@@ -1,8 +1,26 @@
-## Study Cards
+# Study Cards
+
+
+## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+
+
+##Overview
 
 I came a long way since January when I wrote my first lines of HTML. I'd like to believe now I'm familiar with at least a tiny fragment of web development. But I'm a career changer, so I realise most people are not gonna just believe me if I say that. I've never had any tech interviews so I'm not 100% sure what to expect but I made some research. Apparently, they might ask some questions and I don't like to go unprepared. In general, I really don't like being unprepared. :sweat_smile:
 
 I wanted to prepare myself with some flip-cards and I thought I may as well code it myself.
+
+###Links
+
+###Screenshots
+
+##My Process
 
 ### First version: Vanilla CSS
 
