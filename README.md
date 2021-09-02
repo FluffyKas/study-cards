@@ -22,16 +22,20 @@ I wanted to prepare myself with some flip-cards and I thought I may as well code
 
 ## My Process
 
-I'd like to later turn this into a React app but for now (since I'm kind of eager to start practicing) I'd make an attempt to use CSS only. At the moment, I'm not sure, how I'm going to do this, but I'm fairly confident in my CSS skills so I'll make some research and I'm sure I'll manage somehow. :relaxed:
+I'm practicing some vanilla skills again with this project ( it's never really enough, is it). My plan is to build a simple grid layout with different sized cards that can be flipped, questions in the front, answers in the back. At the top, there will be a searchbar to filter through the questions if needed.
 
-### First version: Vanilla CSS
+### First steps
 
-#### Day 1:
+
+*First steps*
 
 - I made a very simple grid layout for my cards. It's not responsive but I'm not sure it really has to be (we'll see)
 - I made some research on how to achieve the flip effect I. It gave me a nice opportunity to use some transforms and was amazed to discover ```perspective``` that creates a really neat 3D effect on the flip
-- Hardcoding all questions/answers
+- Hardcoding some questions/answers
 - Trying to come up with a good color scheme that doesn't put me to sleep...
-- Perhaps I'll add a few different flip-effects
+Plans for next time: make a searchbar!
 
-Future plans: a nice searchbar on the top would be useful so I can look for specific questions. Never made something like this before. Time to practice some JS!
+*Second attempt*
+
+I added a searchbar to filter questions. I've never done something like this before so I used [The Net Ninja's awesome tutorial](https://www.youtube.com/watch?v=3NG8zy0ywIk) for the concept and then changed it a bit to my own use. There's some clean up to do, but I'm very happy that it works! :relaxed:
+Next step: I'll split all questions into categories (CSS, JS, Accessibility, etc) for easier search options. Need to work more on the answers and add different flip-effects!
