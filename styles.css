@@ -8,10 +8,41 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  background-color: #F4EEFF;
 }
 
+/* SEARCH BAR */
+
+.search-form {
+  padding: 1.5rem;
+  background-color: #DCD6F7;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+  position: relative;
+}
+
+#searchbar {
+  border: 2px solid #424874;
+  border-radius: 35px;
+  width: 50%;
+  padding: 1rem;
+  transform: translateX(50%);
+  font-family: inherit;
+  color: #b7b3ca;
+}
+
+.fa-search {
+  color: #424874;
+  position: absolute;
+  z-index: 3;
+  top: 2.75rem;
+  right: 33rem;
+}
+
+/* CARD GRID */
+
 .card-grid {
-  background-color: #F4EEFF;
   min-height: 100vh;
   display: grid;
   grid-template-columns: repeat(auto-fill, 22.5rem);
@@ -20,6 +51,7 @@ body {
   gap: 3rem;
   justify-content: center;
   padding: 5%;
+ padding-top: 11rem;
 }
 
 .card {
@@ -58,7 +90,6 @@ body {
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
-  background: lightcoral;
   display: grid;
   place-items: center;
   background-color: #DCD6F7;
