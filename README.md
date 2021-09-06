@@ -1,6 +1,5 @@
 # Study Cards
 
-
 ## Table of contents
 
 - [Overview](#overview)
@@ -12,11 +11,11 @@
 
 ## Overview
 
-I came a long way since January when I wrote my first lines of HTML. I'd like to believe now I'm familiar with at least a tiny fragment of web development. But I'm a career changer, so I realise most people are not gonna just believe me if I say that. I've never had any tech interviews so I'm not 100% sure what to expect but I made some research. Apparently, they might ask some questions and I don't like to go unprepared. In general, I really don't like being unprepared. :sweat_smile:
-
-I wanted to prepare myself with some flip-cards and I thought I may as well code it myself.
+I've got to the point where it would be wise to prepare for interviews. As part of this process I thought I make some question-answer cards with common interview questions to practice a bit. Then it somehow turned into this small project...
 
 ### Links
+
+[Live site](https://fluffykas.github.io/study-cards/)
 
 ### Screenshots
 
@@ -25,7 +24,6 @@ I wanted to prepare myself with some flip-cards and I thought I may as well code
 I'm practicing some vanilla skills again with this project ( it's never really enough, is it). My plan is to build a simple grid layout with different sized cards that can be flipped, questions in the front, answers in the back. At the top, there will be a searchbar to filter through the questions if needed.
 
 ### First steps
-
 
 *First steps*
 
