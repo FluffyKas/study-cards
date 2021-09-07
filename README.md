@@ -35,5 +35,19 @@ Plans for next time: make a searchbar!
 
 *Second attempt*
 
-I added a searchbar to filter questions. I've never done something like this before so I used [The Net Ninja's awesome tutorial](https://www.youtube.com/watch?v=3NG8zy0ywIk) for the concept and then changed it a bit to my own use. There's some clean up to do, but I'm very happy that it works! :relaxed:
+I added a searchbar to filter questions. I've never done something like this before so I used [The Net Ninja's awesome tutorial](https://www.youtube.com/watch?v=3NG8zy0ywIk) for the concept and then changed it a bit to my own use. 
+
+I used indexOf() method that normally returns the position of the string we're looking for. If it's not found, it returns -1, I took advantage of this to determine whether the keyword we're looking for can be found in the question. If it's not found, the display of those elements is simply set to none.
+
+````
+if(questionTitle.indexOf(keyword)!=(-1)) {
+...
+} else {
+...
+}
+````
+
+There's some clean up to do, but I'm very happy that it works! :relaxed:
 Next step: I'll split all questions into categories (CSS, JS, Accessibility, etc) for easier search options. Need to work more on the answers and add different flip-effects!
+
+*Third attempt*

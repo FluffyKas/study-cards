@@ -76,12 +76,20 @@ body {
   width: relative;
   width: 100%;
   height: 100%;
-  transition: transform 0.8s;
+  transition: transform 1s;
   transform-style: preserve-3d;
 }
 
-.card:hover .card-inner {
+.card:hover .flip-right {
   transform: rotateY(180deg);
+}
+
+.card:hover .flip-up {
+  transform: rotateX(180deg);
+}
+
+.card:hover .flip-inverted-diagonal {
+  transform: rotate3d(1, -1, 0, 180deg);
 }
 
 .card-front,
@@ -99,7 +107,14 @@ body {
   line-height: 1.8;
 }
 
-.card-back {
+.back-flip-right{
   transform: rotateY(180deg);
 }
 
+.back-flip-up {
+  transform: rotateX(180deg);
+}
+
+.back-flip-inverted-diagonal {
+  transform: rotate3d(1, -1, 0, 180deg);
+}
