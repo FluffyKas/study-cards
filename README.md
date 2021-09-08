@@ -54,4 +54,4 @@ There's some clean up to do, but I'm very happy that it works! :relaxed:
 - added more filter options: search tags for categories
 - answered some questions
 
-PLANS: While my code for the filter tags works as it is, it's a bit lengthy. I need to shorten it next time. I'll also need to make the RESET button slightly different than the others.
+PLANS: While my code for the filter tags works as it is, it's a bit lengthy. I need to shorten it next time. I'll also need to make the RESET button slightly different than the others. I'll also add a footer section.
