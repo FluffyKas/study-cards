@@ -23,8 +23,6 @@ I've got to the point where it would be wise to prepare for interviews. As part 
 
 I'm practicing some vanilla skills again with this project ( it's never really enough, is it). My plan is to build a simple grid layout with different sized cards that can be flipped, questions in the front, answers in the back. At the top, there will be a searchbar to filter through the questions if needed.
 
-### First steps
-
 *First steps*
 
 - I made a very simple grid layout for my cards. It's not responsive but I'm not sure it really has to be (we'll see)
