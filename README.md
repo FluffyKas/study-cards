@@ -29,7 +29,8 @@ I'm practicing some vanilla skills again with this project ( it's never really e
 - I made some research on how to achieve the flip effect I. It gave me a nice opportunity to use some transforms and was amazed to discover ```perspective``` that creates a really neat 3D effect on the flip
 - Hardcoding some questions/answers
 - Trying to come up with a good color scheme that doesn't put me to sleep...
-Plans for next time: make a searchbar!
+
+PLANS: make a searchbar!
 
 *Second attempt*
 
@@ -46,6 +47,9 @@ if(questionTitle.indexOf(keyword)!=(-1)) {
 ````
 
 There's some clean up to do, but I'm very happy that it works! :relaxed:
-Next step: I'll split all questions into categories (CSS, JS, Accessibility, etc) for easier search options. Need to work more on the answers and add different flip-effects!
+
+PLANS: I'll split all questions into categories (CSS, JS, Accessibility, etc) for easier search options. Need to work more on the answers and add different flip-effects!
 
 *Third attempt*
+
+- now wide/large/small cards will flip differently (up, left, inverted diagonal)
