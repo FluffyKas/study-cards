@@ -13,11 +13,14 @@ body {
 
 /* SEARCH BAR */
 
+header {
+  background-color: #DCD6F7;
+  display: flex;
+  align-items: center;
+}
+
 .search-form {
   padding: 1.5rem;
-  background-color: #DCD6F7;
-  position: fixed;
-  width: 100%;
   z-index: 3;
   position: relative;
 }
@@ -25,11 +28,10 @@ body {
 #searchbar {
   border: 2px solid #424874;
   border-radius: 35px;
-  width: 50%;
   padding: 1rem;
-  transform: translateX(50%);
   font-family: inherit;
   color: #b7b3ca;
+  width: 30rem;
 }
 
 .fa-search {
@@ -37,7 +39,36 @@ body {
   position: absolute;
   z-index: 3;
   top: 2.75rem;
-  right: 33rem;
+  right: 2.75rem;
+}
+
+.search-tags {
+  display: flex;
+  font-size: .9rem;
+}
+
+.tags-description {
+  padding-right: .75rem;
+  align-self: center;
+  color: #424874;
+}
+
+.search-tags button {
+  all: unset;
+  border: 2px solid #424874;
+  border-radius: 35px;
+  background: transparent;
+  color: #424874;
+  cursor: pointer;
+  font-weight: 600;
+  padding: .2rem 1.75rem;
+  margin-right: .75rem;
+  transition: all .2s ease-in;
+}
+
+.search-tags button:hover {
+  color: #F4EEFF;
+  background: #424874;
 }
 
 /* CARD GRID */

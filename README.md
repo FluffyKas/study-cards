@@ -52,4 +52,4 @@ PLANS: I'll split all questions into categories (CSS, JS, Accessibility, etc) fo
 
 *Third attempt*
 
-- now wide/large/small cards will flip differently (up, left, inverted diagonal)
+- now wide/large/small cards will flip differently (up, right, inverted diagonal)
