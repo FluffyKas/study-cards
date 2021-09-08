@@ -13,9 +13,11 @@
 
 I've got to the point where it would be wise to prepare for interviews. As part of this process I thought I make some question-answer cards with common interview questions to practice a bit. Then it somehow turned into this small project...
 
+This is a work in progress. While functional as it is, features are still being added to it.
+
 ### Links
 
-[Live site](https://fluffykas.github.io/study-cards/)
+[Study cards live site](https://fluffykas.github.io/study-cards/)
 
 ### Screenshots
 
@@ -29,8 +31,6 @@ I'm practicing some vanilla skills again with this project ( it's never really e
 - I made some research on how to achieve the flip effect I. It gave me a nice opportunity to use some transforms and was amazed to discover ```perspective``` that creates a really neat 3D effect on the flip
 - Hardcoding some questions/answers
 - Trying to come up with a good color scheme that doesn't put me to sleep...
-
-PLANS: make a searchbar!
 
 *Second attempt*
 
@@ -48,8 +48,10 @@ if(questionTitle.indexOf(keyword)!=(-1)) {
 
 There's some clean up to do, but I'm very happy that it works! :relaxed:
 
-PLANS: I'll split all questions into categories (CSS, JS, Accessibility, etc) for easier search options. Need to work more on the answers and add different flip-effects!
-
 *Third attempt*
 
 - now wide/large/small cards will flip differently (up, right, inverted diagonal)
+- added more filter options: search tags for categories
+- answered some questions
+
+PLANS: While my code for the filter tags works as it is, it's a bit lengthy. I need to shorten it next time. I'll also need to make the RESET button slightly different than the others.
