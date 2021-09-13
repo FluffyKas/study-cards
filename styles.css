@@ -8,7 +8,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #F4EEFF;
+  background: #424874;
 }
 
 /* SEARCH BAR */
@@ -82,8 +82,11 @@ header {
   grid-auto-flow: dense;
   gap: 3rem;
   justify-content: center;
-  padding: 5%;
- padding-top: 11rem;
+  padding-top: 11rem;
+  padding-bottom: 31rem;
+  background-color: #F4EEFF;
+  clip-path: polygon(0 0,100% 0, 100% 98%,0 100%);
+  margin-bottom: -10vw;
 }
 
 .card {
@@ -150,4 +153,51 @@ header {
 
 .back-flip-inverted-diagonal {
   transform: rotate3d(1, -1, 0, 180deg);
+}
+
+/* FOOTER */
+
+footer {
+  background: #424874;
+  padding-top: 24rem;
+  padding-bottom: 1.5rem;
+  text-align: center;
+  /* position: relative; */
+}
+
+footer a,
+footer a:active {
+  color: #DCD6F7;
+  text-decoration: none;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding-bottom: 2rem;
+}
+
+.social-links a {
+  font-size: 1.5rem;
+  transition: all .2s ease;
+}
+
+.social-links a:hover {
+  transform: scale(1.15);
+}
+
+.createdby {
+  opacity: .5;
+}
+
+.createdby a:hover {
+  color: white;
+}
+
+.up-button {
+  position: absolute;
+  right: 2rem;
+  bottom: 1.5rem;
+  font-size: 3rem;
 }
